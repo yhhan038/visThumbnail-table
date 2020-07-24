@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Survey of Visualization Thumbnails</title>
+
+    <!-- handsortable source-->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/handsontable@latest/dist/handsontable.full.min.css">
+    <link rel="stylesheet" type="text/css" href="https://handsontable.com/static/css/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/handsontable@latest/dist/handsontable.full.min.js"></script>
+
+    <!-- jQuery library -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/css.css">
+</head>
+<body>
+<div class="container-fluid">
+    <button id="inst-btn" type="button" class="btn btn-primary"> HOW TO USE (click here) </button>
+    <div id="instruction" style="display:none">
+        <center>
+        <h5 class="display-4">HOW TO USE</h5>
+            <p> This is an interactive version of Table 2.</p> </center>
+            <div class="center" id="inst_box">
+                <p style="font-weight:bold"> With this table, you can click </p>
+            <ul>
+            <li>(1) the column header (e.g., type) to sort the column</li>
+            <li>(2) the arrow button (<img src="../src/button.png" width="15px">) of the column for filtering</li>
+            <li>If you want to see the thumbnail of a news article, hover your mouse over the cell of either `Chart type’ or ‘News site.’</li>
+            </ul>
+            </div>
+    </div>
+    <div style = 'display:inline;'> <img src="../src/legend.png" width="300px" align="right">
+    <a href= http://hci.unist.ac.kr/vtn_table/html/index.html> See Table 1 </a></div>
+
+    <p> </p>
+    <div id="hot2">
+    </div>
+    <div class="show">
+        <div class="overlay"></div>
+        <img class="img-show" src="">
+
+    </div>
+</div>
+
+<script src="../js/data.js"></script>
+<script src="../js/load_data2.js"></script>
+<script src="../js/table.js"></script>
+
+</body>
+
+</html>
